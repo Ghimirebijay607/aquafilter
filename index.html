@@ -1,1 +1,32 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Water Filter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Electric Water Filter</h1>
+    </header>
+
+    <main>
+        <section class="product-description">
+            <p>Experience clean and purified water with our latest electric filtration system.</p>
+            <button onclick="toggleInfo()">Learn More</button>
+            <p id="extra-info" style="display: none;">Our filter uses advanced technology to remove contaminants efficiently.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us for more details!</p>
+        <form action="process.php" method="POST">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </footer>
+</body>
+</html>
